@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { FeedbackList, FeedbackItem, FeedbackText } from './Statistics.module';
 
 export const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => {
-  console.log(positiveFeedback);
     return (
       <FeedbackList>
         <FeedbackItem> <FeedbackText>Good: {good}</FeedbackText></FeedbackItem> 
